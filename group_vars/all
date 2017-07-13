@@ -1,0 +1,14 @@
+#add_ceph_pre
+yum_ip: 10.25.0.3
+
+#add_ceph_osd
+clustername: ceph
+mon1: B-OPS-29-2
+mon2: B-OPS-31-2
+mon3: B-OPS-62-2
+mon1ipaddr: 172.20.29.2
+mon2ipaddr: 172.20.31.2
+mon3ipaddr: 172.20.62.2
+#使用和原来ceph一样的fsid
+fsid: dbad0cb0-6f54-4009-bf0f-ba49b9a2322f
+

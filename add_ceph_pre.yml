@@ -1,0 +1,5 @@
+---
+- hosts: add_ceph
+  user: root
+  roles:
+    - add_ceph_pre

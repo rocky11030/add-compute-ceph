@@ -1,0 +1,13 @@
+[add_ceph]
+10.2.34.1 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
+10.2.34.2 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
+10.2.34.3 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
+10.2.34.4 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
+10.2.34.5 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
+10.2.34.6 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
+10.2.34.7 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
+10.2.34.8 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
+10.2.34.9 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
+10.2.34.10 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
+10.2.34.11 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
+10.2.34.12 ansible_ssh_user=root ansible_ssh_pass=Neunn2016
