@@ -40,7 +40,24 @@
 
 #- name: autoraid
 #  script: /etc/ansible/ceph-ansible-auto/roles/pre-action/files/autoraid.sh
- 
+#- name: REMOVE Software
+#  apt: name={{ item }} state=absent purge=yes force=yes
+#  with_items:
+#             - librados2
+#             - Python-rados
+#             - Librbd1
+#             - ceph-mds
+#             - sysv-rc-conf
+#             - sysstat 
+#             - xfsprogs 
+#             - smartmontools 
+#             - ceph-base 
+#             - ceph-mon
+#             - ceph-osd
+#             - ceph-fs-common
+#             - ceph-fuse
+#             - libcephfs1
+#             - python-cephfs
 - name: install software
   apt: name={{ item }} state=present force=yes
   with_items:
@@ -54,5 +71,5 @@
              - biosdevname  
              - xfsprogs 
              - smartmontools
-#- name: solved disk disorder--reboot
+##- name: solved disk disorder--reboot
 #  command: reboot

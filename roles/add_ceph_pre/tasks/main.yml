@@ -1,6 +1,11 @@
 ---
-- name: modify source.list
-  template: src=source.list dest=/etc/apt/sources.list
+- name: modify sources.list
+  template:
+    src: sources.list
+    dest: /etc/apt/sources.list
+
+- name: rm ceph source
+  shell: rm -rf /etc/apt/sources.list.d/mirrors_neunn_com_ceph_debian_jewel.list
 
 - name: update source
   shell: apt-get update

@@ -6,4 +6,5 @@
 
   roles:
     - add_ceph_osd
+  serial: 1
 
